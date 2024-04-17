@@ -277,3 +277,10 @@ p {
     flex-direction: column;
     gap: 21px;
 }
+
+.ruta-svg {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    display: inline-block;
+}
