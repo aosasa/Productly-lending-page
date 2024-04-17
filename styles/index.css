@@ -60,7 +60,12 @@ header li {
     border-radius: 4px;
     border: 1px solid #BCD0E5;
     background-color: white;
-}
+    }
+
+#SignIn:hover {
+        color: #FFA500; 
+    }
+
 #SignUp {
     width: 110px;
     height: 46px;
@@ -71,8 +76,9 @@ header li {
     color: white;
 }
 
-
- 
+#SignUp:hover {
+    color: #2fa12f;
+}
 
 .container1 {
     display: flex;
@@ -96,6 +102,11 @@ header li {
     border: none;
     color: white;
 }
+
+#GetStarted:hover {
+    color: #2fa12f;
+}
+
 .main-title {
     color: #2F281E;
     font-size: 44px;
@@ -117,7 +128,7 @@ header li {
 }
 #dancingimg {
     width: 605px;
-    height: 496px;
+    height: 100%;
     flex-shrink: 0;
 }
 a {
@@ -174,6 +185,11 @@ h2 {
     color: white;
     border: none;
     margin-top: 60px;
+}
+
+.SignUpNow:hover {
+    background-color: #FFA500; 
+    color: white; 
 }
 
 h4 {
@@ -242,6 +258,12 @@ p {
     flex-shrink: 0;
     border-radius: 4px;
 }
+
+.footer button:hover {
+    background-color: #FFA500; 
+    color: white; 
+}
+
 #logo-footer {
     align-self: flex-start;
     
